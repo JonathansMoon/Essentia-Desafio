@@ -1,0 +1,20 @@
+/* Toast styles  */
+.toast {
+    font-size: initial !important;
+    border: initial !important;
+    backdrop-filter: blur(0) !important;
+    position: relative;
+    top:45px;
+}
+
+
+.card-body-profile{
+    padding: 1rem 0 0 1.25rem;
+}
+.img-profile{
+    width: 120px;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
