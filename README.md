@@ -60,9 +60,6 @@ $ git clone https://github.com/JonathansMoon/Essentia-Desafio.git
 # Go into the repository
 $ cd Essentia-Desafio
 
-# To run docker:
-$ sudo docker-compose up -d
-
 # Run the command for permission.
 $ chmod +x ./run.sh
 
