@@ -77,8 +77,6 @@ $ php artisan test
 $ sudo docker-compose down
 ```
 
-Project Figma [Get in touch!](https://www.figma.com/file/fDoVp3BH0xjsDCFL9x7HDx/Untitled?node-id=0%3A1)
-
 ## :memo: License
 
 This project is under the MIT license.
