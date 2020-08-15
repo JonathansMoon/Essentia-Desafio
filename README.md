@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/JonathansMoon/files/blob/master/images/Essentia.png">
+  <img src="https://github.com/JonathansMoon/files/blob/master/images/Essentias.png">
 </p>
 
 ## :computer: Technologies
@@ -58,7 +58,10 @@ To clone and run this application, you'll only need [Docker](https://www.docker.
 $ git clone https://github.com/JonathansMoon/Essentia-Desafio.git
 
 # Go into the repository
-$ cd Essentia
+$ cd Essentia-Desafio
+
+# To run docker:
+$ sudo docker-compose up -d
 
 # Run the command for permission.
 $ chmod +x ./run.sh
