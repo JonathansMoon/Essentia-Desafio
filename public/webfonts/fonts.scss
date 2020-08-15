@@ -1,16 +1,4 @@
-$theme-colors: (
-    "purple": #9561e2,
-);
-
-.table .thead-purple th {
-    color: #fff;
-    background-color: #b721ff;
-    border-color: #b721ff;
-}
-
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free/scss/regular';
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/brands';
-
-@import "~bootstrap/scss/bootstrap";

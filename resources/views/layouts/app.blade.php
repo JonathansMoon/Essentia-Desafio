@@ -7,7 +7,7 @@
     <title>{{ config('app.name', 'Essentia Pharma') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('vendor/js/app.js') }}" defer></script>
+    <script src="{{ asset('vendor/js/bootstrap.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,8 +19,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('vendor/css/material-design-iconic-font.min.css') }}">
     @stack('styles')
     <!-- Styles -->
+    <link href="{{ asset('vendor/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('custom/css/styles.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/css/app.css') }}" rel="stylesheet">
     @toastr_css
 </head>
 <body>

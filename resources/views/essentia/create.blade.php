@@ -7,7 +7,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card border-0 shadow-lg p-3 mb-5 bg-white rounded">
-                <div class="card-header bg-purple border-0">Dashboard</div>
+                <div class="card-header bg-purple text-white border-0">Dashboard</div>
 
                 <div class="card-body">
 
@@ -46,7 +46,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text input-text" id="inputGroup-sizing-default">Telefone</span>
                                 </div>
-                                <input type="text" id="phone" name="phone" class="form-control" value="{{old('phone', $client->phone ?? '')}}" required>
+                                <input type="text" id="phone" name="phone" class="form-control phone" attrname=phone value="{{old('phone', $client->phone ?? '')}}" required>
                             </div>
 
                             <div class="form-group">
@@ -60,4 +60,8 @@
         </div>
     </div>
 </div>
+@push('js')
+    <script src="{{asset('vendor/js/vanilla-masker.min.js')}}"></script>
+    <script src="{{asset('custom/js/maskInput.js')}}"></script>
+@endpush
 @endsection

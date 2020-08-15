@@ -39,13 +39,13 @@
                                 <td class="td-action">
                                     <form action="{{route('client.destroy', $client->id)}}" method="POST">
                                         @csrf
-                                        <a href="{{route('client.show', $client->id)}}" class="btn btn-outline-success">
-                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                        <a href="{{route('client.show', $client->id)}}" class="btn btn-sm btn-outline-success">
+                                            <i class="fas fa-eye" aria-hidden="true"></i>
                                         </a>
-                                        <a href="{{route('client.edit', $client->id)}}" class="btn btn-outline-primary">
+                                        <a href="{{route('client.edit', $client->id)}}" class="btn btn-sm btn-outline-primary">
                                             <i class="fa fa-edit" aria-hidden="true"></i>
                                         </a>
-                                        <button type="submit" class="btn btn-outline-danger">
+                                        <button type="submit" class="btn btn-sm btn-outline-danger">
                                             <i class="fa fa-trash" aria-hidden="true"></i>
                                         </button>
                                     </form>
