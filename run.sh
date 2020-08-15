@@ -1,3 +1,6 @@
+echo Start docker
+sudo docker-compose up -d
+
 echo Copying the configuration example file
 docker exec -it essentia-app cp .env.example .env
 
