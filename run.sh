@@ -10,6 +10,12 @@ docker exec -it essentia-app composer install
 echo Make migrations
 docker exec -it essentia-app php artisan migrate
 
+echo key generate
+docker exec -it essentia-app php artisan key:generate
+
+echo symbolic link
+docker exec -it essentia-app php artisan storage:link
+
 echo Install dependencies NPM
 npm install
 
